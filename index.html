@@ -155,7 +155,7 @@
         <h2>Reserve Your Table.</h2>
         <div class="gold-line"></div>
         <p>We would be honored to welcome you to DINEKADA. Share your details and preferred date, and join us for an evening of Batangas flavors.</p>
-        <p class="placeholder-text">[jjjjAdd reservation notes here, such as hours or group size policies.]</p>
+        <p class="placeholder-text"> We accept reservations daily from 10:00 AM to 9:00 PM. For large groups exceeding 10 guests or special events, please contact us directly</p>
       </div>
 
       <!-- RESERVATION FORM
@@ -187,8 +187,8 @@
           </div>
 
           <div>
-            <label for="time">Reservation Time</label>
-            <input type="time" id="time" name="reservation_time" required>
+            <label for="time">Reservation Time (8:00 AM - 10:00 PM)</label>
+            <input type="time" id="time" name="reservation_time" min="08:00" max="22:00" required>
           </div>
 
           <div class="form-full">
