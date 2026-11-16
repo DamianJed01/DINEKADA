@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | DINEKADA</title>
+  <meta name="description" content="The DINEKADA menu: appetizers, pancit, Batangas dishes, beverages, desserts and rice.">
+
+  <!-- Fonts (needs internet). If offline, the website uses Georgia and Arial instead. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- The one stylesheet used by all three pages -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (same on every page) ===== -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">DINEKADA</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#reservation" class="nav-reserve">Reserve a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="page-banner">
+    <h1>Our Menu</h1>
+    <p>Traditional Batangas flavors, presented with care.</p>
+  </section>
+  <div class="weave-band"></div>
+
+  <!-- ===== CATEGORY LINKS (anchor links jump to each section below) ===== -->
+  <nav class="menu-nav" aria-label="Menu categories">
+    <ul>
+      <li><a href="#appetizers">Appetizers</a></li>
+      <li><a href="#noodles">Noodles</a></li>
+      <li><a href="#batangas-dishes">Batangas Dishes</a></li>
+      <li><a href="#authentic-flavors">Authentic Flavors</a></li>
+      <li><a href="#beverages">Beverages</a></li>
+      <li><a href="#desserts">Desserts</a></li>
+      <li><a href="#rice">Rice</a></li>
+      <li><a href="#featured">Featured</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOW TO EDIT THE MENU:
+       Each dish is one line like this:
+       <li><span class="item-name">Dish Name</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+       Change the dish name, and replace ___ with the price (example: ₱250). -->
+
+  <!-- ===== A. APPETIZERS ===== -->
+  <section class="menu-section bg-ivory" id="appetizers">
+    <div class="container">
+      <div class="section-heading"><h2>Appetizers</h2></div>
+      <ul class="menu-list">
+          <li><span class="item-name">Crispy Tawilis</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Chicharon Bulaklak</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Taghilaw</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Kilawing Kambing</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== B. NOODLES / PANCIT ===== -->
+  <section class="menu-section bg-cream" id="noodles">
+    <div class="container">
+      <div class="section-heading"><h2>Noodles &amp; Pancit</h2></div>
+
+      <h3 class="menu-subheading">Pancit</h3>
+      <ul class="menu-list">
+          <li><span class="item-name">Pancit Pula</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Pancit Chami</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Guisado</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+
+      <h3 class="menu-subheading">Lomi</h3>
+      <table class="lomi-table">
+        <thead>
+          <tr>
+            <th scope="col">Size</th>
+            <th scope="col">Regular Toppings</th>
+            <th scope="col">Double Toppings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Regular</td>
+            <td>₱___</td>
+            <td>₱___</td>
+          </tr>
+          <tr>
+            <td>Special</td>
+            <td>₱___</td>
+            <td>₱___</td>
+          </tr>
+          <tr>
+            <td>Jumbo</td>
+            <td>₱___</td>
+            <td>₱___</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="menu-note">Prices increase with size. Double toppings cost more than regular toppings.</p>
+    </div>
+  </section>
+
+  <!-- ===== C. BATANGAS DISHES ===== -->
+  <section class="menu-section bg-ivory" id="batangas-dishes">
+    <div class="container">
+      <div class="section-heading"><h2>Batangas Dishes</h2></div>
+      <ul class="menu-list menu-list-two">
+          <li><span class="item-name">Pork Tapa</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Humbang Batangas</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Crispy Pata</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Dinuguang Batangas</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Adobong sa Dilaw</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Tinolang Manok na Tagalog</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Inihaw na Manok</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Bulanglang</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Ginisang Kalabasa at Sitaw</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Kare-kare</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Pinakbet</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Ginisang Munggo</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Chapsuey</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== D. AUTHENTIC BATANGAS FLAVORS (dark section, the heart of the menu) ===== -->
+  <div class="weave-band"></div>
+  <section class="menu-signature" id="authentic-flavors">
+    <div class="signature-frame">
+      <div class="section-heading"><h2>Authentic Batangas Flavors</h2></div>
+      <p class="signature-intro">The dishes at the heart of DINEKADA.</p>
+      <ul class="menu-list menu-list-two">
+          <li><span class="item-name">Kalderetang Kambing</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Bulalo</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Gotong Batangas</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Pares</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Sinaing na Tulingan</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Putchero</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+  <div class="weave-band"></div>
+
+  <!-- ===== E. BEVERAGES ===== -->
+  <section class="menu-section bg-ivory" id="beverages">
+    <div class="container">
+      <div class="section-heading"><h2>Beverages</h2></div>
+
+      <h3 class="menu-subheading menu-subheading-first">Kapeng Barako</h3>
+      <ul class="menu-list">
+          <li><span class="item-name">Hot</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Iced</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+
+      <h3 class="menu-subheading">Other Beverages</h3>
+      <ul class="menu-list">
+          <li><span class="item-name">Calamansi Juice</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Buko Juice</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+
+      <h3 class="menu-subheading">Chocolate from Batangas Cacao</h3>
+      <ul class="menu-list">
+          <li><span class="item-name">Hot</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Cold</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== F. DESSERTS ===== -->
+  <section class="menu-section bg-cream" id="desserts">
+    <div class="container">
+      <div class="section-heading"><h2>Desserts</h2></div>
+      <ul class="menu-list">
+          <li><span class="item-name">Kalamay</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Suman</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Nilupak</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Pinindot</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Buchi Buchi</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Sinukmani</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== G. RICE ===== -->
+  <section class="menu-section bg-ivory" id="rice">
+    <div class="container">
+      <div class="section-heading"><h2>Rice</h2></div>
+      <ul class="menu-list">
+          <li><span class="item-name">Plain Rice</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Garlic Rice</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Platter Plain</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+          <li><span class="item-name">Platter Garlic</span><span class="item-dots"></span><span class="item-price">₱___</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== H. FEATURED MENU ITEMS (photo showcase) ===== -->
+  <section class="menu-section bg-cream" id="featured">
+    <div class="container">
+      <div class="section-heading">
+        <h2>From Our Kitchen</h2>
+        <p>Selected dishes from the menu.</p>
+      </div>
+
+      <article class="showcase-row">
+        <!-- PHOTO: replace images/food/bulalo.jpg -->
+<div class="photo-frame photo-land " data-label="Photo: Bulalo">
+  <img src="images/food/bulalo.jpg" alt="Bulalo served at DINEKADA">
+</div>
+        <div class="showcase-text">
+          <span class="dish-tag">Batangas Classic</span>
+          <h3>Bulalo</h3>
+          <div class="gold-line"></div>
+          <p>A Batangas favorite, served in the warm and generous spirit of the province.</p>
+        </div>
+      </article>
+
+      <article class="showcase-row showcase-reverse">
+        <!-- PHOTO: replace images/food/gotong-batangas.jpg -->
+<div class="photo-frame photo-land " data-label="Photo: Gotong Batangas">
+  <img src="images/food/gotong-batangas.jpg" alt="Gotong Batangas served at DINEKADA">
+</div>
+        <div class="showcase-text">
+          <span class="dish-tag">House Specialty</span>
+          <h3>Gotong Batangas</h3>
+          <div class="gold-line"></div>
+          <p>A beloved comfort dish from Batangas, a true taste of home.</p>
+        </div>
+      </article>
+
+      <article class="showcase-row">
+        <!-- PHOTO: replace images/food/sinaing-na-tulingan.jpg -->
+<div class="photo-frame photo-land " data-label="Photo: Sinaing na Tulingan">
+  <img src="images/food/sinaing-na-tulingan.jpg" alt="Sinaing na Tulingan served at DINEKADA">
+</div>
+        <div class="showcase-text">
+          <span class="dish-tag">Batangas Classic</span>
+          <h3>Sinaing na Tulingan</h3>
+          <div class="gold-line"></div>
+          <p>A traditional dish that reflects the coastal heritage of Batangas.</p>
+        </div>
+      </article>
+
+      <article class="showcase-row showcase-reverse">
+        <!-- PHOTO: replace images/food/kalderetang-kambing.jpg -->
+<div class="photo-frame photo-land " data-label="Photo: Kalderetang Kambing">
+  <img src="images/food/kalderetang-kambing.jpg" alt="Kalderetang Kambing served at DINEKADA">
+</div>
+        <div class="showcase-text">
+          <span class="dish-tag">House Specialty</span>
+          <h3>Kalderetang Kambing</h3>
+          <div class="gold-line"></div>
+          <p>A hearty favorite from the Batangas table, rooted in local tradition.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ===== FOOTER (same on every page) ===== -->
+  <div class="weave-band"></div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <div class="footer-logo">DINEKADA</div>
+        <p>Where Batangas heritage meets timeless dining. A celebration of traditional Batangas cuisine in an elegant setting.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#reservation">Reserve a Table</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Visit Us</h4>
+        <!-- EDIT: replace the text inside the [brackets] with your real details -->
+        <p>[Restaurant Address, City, Batangas]</p>
+        <p>[Contact Number]</p>
+        <p>[Email Address]</p>
+        <p>[Operating Hours, e.g. Mon–Sun, 10:00 AM – 9:00 PM]</p>
+      </div>
+
+    </div>
+    <p class="copyright">&copy; 2026 DINEKADA. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

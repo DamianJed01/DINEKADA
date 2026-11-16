@@ -1,0 +1,9 @@
+Put these photos in this folder (exact file names, .jpg):
+restaurant1.jpg   Homepage slideshow photo 1
+restaurant2.jpg   Homepage slideshow photo 2
+restaurant3.jpg   Homepage slideshow photo 3
+restaurant4.jpg   Homepage slideshow photo 4
+interior1.jpg     Homepage introduction (large photo)
+dining-main.jpg   About page: main dining area
+dining-decor.jpg  About page: interior decorations
+dining-tables.jpg About page: dining tables

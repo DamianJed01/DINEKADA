@@ -1,0 +1,5 @@
+owner1.jpg
+owner2.jpg
+owner3.jpg
+owner4.jpg
+(Portrait photos work best, taller than wide.)

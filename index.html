@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DINEKADA | Where Batangas Heritage Meets Timeless Dining</title>
+  <meta name="description" content="DINEKADA is a fine dining restaurant celebrating traditional Batangas cuisine.">
+
+  <!-- Fonts (needs internet). If offline, the website uses Georgia and Arial instead. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- The one stylesheet used by all three pages -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (same on every page) ===== -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">DINEKADA</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#reservation" class="nav-reserve">Reserve a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+  <!-- ===== HERO: slideshow on the left, restaurant introduction on the right ===== -->
+  <section class="hero">
+
+    <!-- CSS-only slideshow (no JavaScript). 4 photos fade in and out. -->
+    <div class="hero-slideshow">
+      <!-- PHOTO: replace images/restaurant/restaurant1.jpg -->
+      <div class="slide slide-1 photo-frame" data-label="Restaurant Photo 1">
+        <img src="images/restaurant/restaurant1.jpg" alt="DINEKADA restaurant, photo 1">
+      </div>
+
+      <!-- PHOTO: replace images/restaurant/restaurant2.jpg -->
+      <div class="slide slide-2 photo-frame" data-label="Restaurant Photo 2">
+        <img src="images/restaurant/restaurant2.jpg" alt="DINEKADA restaurant, photo 2">
+      </div>
+
+      <!-- PHOTO: replace images/restaurant/restaurant3.jpg -->
+      <div class="slide slide-3 photo-frame" data-label="Restaurant Photo 3">
+        <img src="images/restaurant/restaurant3.jpg" alt="DINEKADA restaurant, photo 3">
+      </div>
+
+      <!-- PHOTO: replace images/restaurant/restaurant4.jpg -->
+      <div class="slide slide-4 photo-frame" data-label="Restaurant Photo 4">
+        <img src="images/restaurant/restaurant4.jpg" alt="DINEKADA restaurant, photo 4">
+      </div>
+
+    </div>
+
+    <div class="hero-text">
+      <h1>DINEKADA</h1>
+      <div class="gold-line"></div>
+      <p class="hero-tagline">Where Batangas Heritage Meets Timeless Dining.</p>
+      <div class="gold-line"></div>
+      <p class="hero-intro">Discover the timeless flavors of Batangas through a dining experience that celebrates tradition, craftsmanship, and the rich culinary heritage of the Philippines.</p>
+      <div class="button-row">
+        <a href="menu.html" class="btn btn-gold">Explore Our Menu</a>
+        <a href="#reservation" class="btn btn-outline">Reserve a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="weave-band"></div>
+
+  <!-- ===== RESTAURANT INTRODUCTION ===== -->
+  <section class="section bg-ivory" id="introduction">
+    <div class="container split">
+      <div>
+        <h2>A Taste of Batangas, A Legacy of Flavor.</h2>
+        <div class="gold-line"></div>
+        <!-- EDIT: change this description to your own words -->
+        <p>DINEKADA celebrates the traditional dishes, ingredients, and culinary identity of Batangas through an elegant dining experience. The name joins two ideas: <em>Dine</em>, an invitation to sit at our table, and <em>Kada</em>, from <em>Dekada</em>, the decades of tradition behind every dish.</p>
+        <p>Here, familiar flavors are presented with care, in a setting that honors where they come from.</p>
+        <div class="button-row">
+          <a href="about.html" class="btn btn-dark">Learn More About Us</a>
+        </div>
+      </div>
+      <!-- PHOTO: replace images/restaurant/interior1.jpg -->
+<div class="photo-frame photo-tall photo-outlined" data-label="Photo: Restaurant Interior or Signature Dish">
+  <img src="images/restaurant/interior1.jpg" alt="Interior of the DINEKADA dining room">
+</div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED FOOD ===== -->
+  <section class="section bg-cream" id="featured-food">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Signature Dishes</h2>
+        <p>A glimpse of the flavors that define DINEKADA.</p>
+      </div>
+      <div class="dish-grid">
+        <article class="dish-card">
+          <!-- PHOTO: replace images/food/bulalo.jpg -->
+<div class="photo-frame photo-port " data-label="Photo: Bulalo">
+  <img src="images/food/bulalo.jpg" alt="Bulalo served at DINEKADA">
+</div>
+          <span class="dish-tag">Batangas Classic</span>
+          <h3>Bulalo</h3>
+          <p>A Batangas favorite, served in the warm and generous spirit of the province.</p>
+        </article>
+
+        <article class="dish-card">
+          <!-- PHOTO: replace images/food/gotong-batangas.jpg -->
+<div class="photo-frame photo-port " data-label="Photo: Gotong Batangas">
+  <img src="images/food/gotong-batangas.jpg" alt="Gotong Batangas served at DINEKADA">
+</div>
+          <span class="dish-tag">House Specialty</span>
+          <h3>Gotong Batangas</h3>
+          <p>A beloved comfort dish from Batangas, a true taste of home.</p>
+        </article>
+
+        <article class="dish-card">
+          <!-- PHOTO: replace images/food/sinaing-na-tulingan.jpg -->
+<div class="photo-frame photo-port " data-label="Photo: Sinaing na Tulingan">
+  <img src="images/food/sinaing-na-tulingan.jpg" alt="Sinaing na Tulingan served at DINEKADA">
+</div>
+          <span class="dish-tag">Batangas Classic</span>
+          <h3>Sinaing na Tulingan</h3>
+          <p>A traditional dish that reflects the coastal heritage of Batangas.</p>
+        </article>
+
+        <article class="dish-card">
+          <!-- PHOTO: replace images/food/kalderetang-kambing.jpg -->
+<div class="photo-frame photo-port " data-label="Photo: Kalderetang Kambing">
+  <img src="images/food/kalderetang-kambing.jpg" alt="Kalderetang Kambing served at DINEKADA">
+</div>
+          <span class="dish-tag">House Specialty</span>
+          <h3>Kalderetang Kambing</h3>
+          <p>A hearty favorite from the Batangas table, rooted in local tradition.</p>
+        </article>
+      </div>
+      <div class="button-row button-row-center">
+        <a href="menu.html" class="btn btn-dark">View the Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVATION ===== -->
+  <section class="section bg-forest" id="reservation">
+    <div class="container reservation-layout">
+
+      <div class="reservation-info">
+        <h2>Reserve Your Table.</h2>
+        <div class="gold-line"></div>
+        <p>We would be honored to welcome you to DINEKADA. Share your details and preferred date, and join us for an evening of Batangas flavors.</p>
+        <p class="placeholder-text">[Add reservation notes here, such as hours or group size policies.]</p>
+      </div>
+
+      <!-- RESERVATION FORM
+           This form only displays the fields. It does NOT save or send anything yet.
+           Later, a backend developer can replace action="#" with the real
+           address (for example action="reserve.php"). Each field already has a
+           "name" so a backend can read it. -->
+      <form class="reservation-form" action="#" method="post">
+        <div class="form-grid">
+
+          <div class="form-full">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full_name" required>
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="phone">Contact Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div>
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="reservation_date" required>
+          </div>
+
+          <div>
+            <label for="time">Reservation Time</label>
+            <input type="time" id="time" name="reservation_time" required>
+          </div>
+
+          <div class="form-full">
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests" required>
+              <option value="">Select number of guests</option>
+              <option>1</option><option>2</option><option>3</option><option>4</option>
+              <option>5</option><option>6</option><option>7</option><option>8</option>
+              <option>9</option><option>10</option><option>More than 10</option>
+            </select>
+          </div>
+
+          <div class="form-full">
+            <label for="requests">Special Requests</label>
+            <textarea id="requests" name="special_requests" rows="4"></textarea>
+          </div>
+
+          <div class="form-full">
+            <button type="submit" class="btn">Submit Reservation</button>
+          </div>
+
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ===== FOOTER (same on every page) ===== -->
+  <div class="weave-band"></div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <div class="footer-logo">DINEKADA</div>
+        <p>Where Batangas heritage meets timeless dining. A celebration of traditional Batangas cuisine in an elegant setting.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#reservation">Reserve a Table</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Visit Us</h4>
+        <!-- EDIT: replace the text inside the [brackets] with your real details -->
+        <p>[Restaurant Address, City, Batangas]</p>
+        <p>[Contact Number]</p>
+        <p>[Email Address]</p>
+        <p>[Operating Hours, e.g. Mon–Sun, 10:00 AM – 9:00 PM]</p>
+      </div>
+
+    </div>
+    <p class="copyright">&copy; 2026 DINEKADA. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
