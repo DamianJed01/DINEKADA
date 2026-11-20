@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="refresh" content="2;url=thankyou.html">
+  <title>Confirming Reservation | DINEKADA</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .loading-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(212, 175, 55, 0.25);
+      border-top-color: #d4af37;
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body class="bg-forest">
+  <div class="loading-wrapper">
+    <div class="spinner"></div>
+    <h2>Confirming Your Reservation...</h2>
+    <p>Please wait a moment while we prepare your table.</p>
+  </div>
+</body>
+</html>
